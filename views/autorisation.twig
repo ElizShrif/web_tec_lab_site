@@ -1,0 +1,32 @@
+{% extends 'layoutreg.twig' %}
+
+{% block main%}
+<main class="regist">
+     <div class="contact">
+            <h8 class="contact_name">
+               Авторизация
+            </h8>
+           <div class="contact_button">
+               <form method ="POST" action="/autorisation">
+                <div class="contact_fields">
+                <div class="contact_field">
+                    <input name = "loginField" type="text" placeholder="Логин">
+                </div>
+                <div class="contact_field">
+                    <input name = "passField" type="password" placeholder="Пароль">
+                </div>
+                </div>
+            
+                <button class="button">Авторизация</button>
+               </form>
+            </div>
+               <h9>или</h9>
+            <div class="contact_button button">
+               
+            <a href = "/registration"><button class="button" >Регистрация</button></a>
+            
+            </div>
+    </div>
+    </main>
+
+{% endblock %}

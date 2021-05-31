@@ -1,0 +1,24 @@
+ {% extends 'layout.twig' %}
+
+ {% block main%}
+ <main>
+  <div class="forms">
+            <form  class="form_ncm">
+                <b>Краткие сведения для развития сайта:</b></p>
+                <label for="fam">Фамилия:</label><br>
+                <input type="text" name="fam"><br>
+                <label for="name">Имя:</label><br>
+                <input type="text" name="name"><br>
+                <label for="ot">Отчество:</label><br>
+                <input type="text" name="ot"><br>
+                <label for="fil">Любимый фильм:</label><br>
+                <input type="text" name="fil"><br>
+                <label for="ser">Любимый сериал:</label><br>
+                <input type="text" name="ser"><br>
+                <label for="ema">Почта для связи:</label><br>
+                <input type="text" name="ema"><br>
+                <button class="submitt" type="submit">Отправить!</button>
+            </form>
+  </div>
+ </main>
+{% endblock %}

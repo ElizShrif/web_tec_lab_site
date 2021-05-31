@@ -1,0 +1,33 @@
+{% extends 'layout.twig' %}
+
+{% block main %}
+ <main>
+        <article>
+            <div class="container">
+                <div class="tex">
+                    <h1>Добро пожаловать!</h1>
+                    <h2>На нашем сайте вышему вниманию будут представленны подборки сериалов, мультфильмов, аниме, дорам
+                        и фильмов.</h2>
+                </div>
+            </div>
+            <section class="categor">
+            {% for bloc in blocList %}
+                <div class="{{bloc.class}}">
+                    <tr>
+                        <td class="leftcol">
+                            <a href="{{bloc.href}}"><img src="{{bloc.imgblack}}" onmouseover="this.src='{{bloc.imgcolor}}'"
+                                    onmouseout="this.src='{{bloc.imgblack}}'" align="left"> </a>
+                        </td>
+                        <div class="tx">
+                            <table width="{{bloc.width}}%">
+                                <td valign="top">{{bloc.text}}</td>
+                            </table>
+                        </div>
+                    </tr>
+                </div>
+   
+            {% endfor %}
+            </section>
+        </article>
+    </main>
+{% endblock %}

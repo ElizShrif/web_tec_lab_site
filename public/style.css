@@ -1,0 +1,237 @@
+body {
+    margin: 0;  
+    font-family: 'Montserrat', sans-serif; 
+    color:gray;
+    font-size: 20px;
+}
+* ,
+*::before
+*::after
+{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,h7,h8 {
+    margin: 0;
+}
+
+.ty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1260px;
+}
+
+
+.find {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin: auto;
+    max-width: 1260px;
+    width: 100%;
+    background-image: url(image/SPACE-97843221.jpg);
+}
+.ulp {
+    margin: 0;
+    padding: 4px;
+}
+.lip {
+    display: inline;
+}
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav__link {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    margin: 0 30px;
+}
+.nav__link:hover, .nav__selected {
+    color: rgb(247, 10, 10);
+}
+
+.regt{
+    display: flex;
+    margin-left: 1170px;
+}
+.bu1{
+    text-decoration: none;
+    margin-left: 10px;
+}
+/*Container*/
+.container {
+    margin: auto;
+    max-width: 1260px;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(image/SPACE-97843221.jpg);
+}
+.tex {
+    font-family: 'Marck Script', cursive;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: honeydew;
+}
+
+
+.bloc {
+    margin-bottom: 60px;
+    height: auto;
+    width: auto;
+}
+.bloc1 {
+    margin-bottom: 60px;
+    margin-left: 110px;
+    height: auto;
+    width: auto;
+}
+.tx {
+    text-align: justify;
+}
+
+.categor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    columns: 500px;
+}
+
+/*Spisok*/
+.spisok {
+    margin-left: 110px;
+}
+.zag{
+    padding-top: 20px;
+    margin-top: 10px;
+    font-size: 20px; 
+}
+
+.im{
+margin-left: 110px;
+}
+
+.nazv1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.table {
+    margin-left: 132px;
+    width: 82.5%; 
+    background: rgb(61, 60, 60); 
+    color: rgb(114, 109, 109); 
+    border-spacing: 2px; 
+    margin-bottom: 20px;
+}
+.table_style {
+    background: rgb(255, 253, 253); 
+    padding: 5px; 
+}
+
+.forms {
+    
+    margin-left: 120px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.nap2 {
+   margin-left: 53px;
+    
+}
+.nap3{
+    margin-left: 3px;
+}
+/*FOOTER*/
+.footer {
+     height: 100px;
+     padding-top: 10px;
+     background-image: url(image/SPACE-97843221.jpg);
+ }
+
+ .footer_im{
+    margin-top: 10px;
+    margin-left: 110px;
+
+ }
+
+ .footer-text {
+     color: floralwhite;
+     margin-left: 110px;  
+ }
+
+ /*Регистрация*/
+ .regist{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ input{
+     height: 35px;
+     width: 300px;
+     font-size: 14px;
+     line-height: 16px;
+     border: 2px solid whitesmoke;
+     border-radius: 5px;
+     padding-left: 25px;
+ }
+ .contact_button {
+    color: darkgrey;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: center;
+    
+ }
+ .contact{
+     align-items: center;
+     flex-direction: column;
+     display: block;
+     position: relative;
+     justify-content: center;
+     background: whitesmoke;
+     border-radius: 20px;
+     height: 280px;
+     margin: auto;
+     width: 100%;
+     max-width: 330px;
+     padding-left: 30px;
+     padding-right: 30px;
+     box-shadow: 0px 6px 20px rgba(2, 8, 20, 0.7);
+ }
+ .contact_fields{
+     margin-bottom: 15px;
+     margin-top: 20px;
+ }
+ .contact_field{
+    box-shadow: 0px 0px 20px rgba(2, 8, 20, 0.7);
+    margin-bottom: 15px;
+    
+}
+ .contact_name{
+    top: 10px;
+    padding-left: 100px;
+    line-height: 23px;
+    font-weight: bold;
+ }
+
+ .button{
+     display: block;
+     height: 35px;
+     background: rgb(190, 177, 245);
+     border-radius: 5px;
+     width: 331px;
+     color: rgb(24, 11, 11);
+     text-transform: uppercase;
+     cursor: pointer;
+ }
+ .button:hover{
+     background-color: rgb(219, 157, 219);
+ }
